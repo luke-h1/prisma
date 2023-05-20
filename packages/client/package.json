@@ -123,7 +123,7 @@
     "pluralize": "8.0.0",
     "replace-string": "3.1.0",
     "resolve": "1.22.1",
-    "rimraf": "3.0.2",
+    "rimraf": "5.0.1",
     "simple-statistics": "7.7.6",
     "sort-keys": "4.2.0",
     "source-map-support": "0.5.21",
