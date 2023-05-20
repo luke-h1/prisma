@@ -60,7 +60,7 @@
     "index-browser.js"
   ],
   "devDependencies": {
-    "@faker-js/faker": "7.5.0",
+    "@faker-js/faker": "8.0.1",
     "@fast-check/jest": "1.0.1",
     "@jest/test-sequencer": "28.1.3",
     "@microsoft/api-extractor": "7.31.2",
