@@ -250,7 +250,7 @@ importers:
       arg: 5.0.2
       benchmark: 2.1.4
       chalk: 4.1.2
-      cuid: 2.1.8
+      cuid: 3.0.0
       decimal.js: 10.4.1
       esbuild: 0.15.8
       execa: 5.1.1
@@ -330,7 +330,7 @@ importers:
       arg: 5.0.2
       benchmark: 2.1.4
       chalk: 4.1.2
-      cuid: 2.1.8
+      cuid: 3.0.0
       decimal.js: 10.4.1
       esbuild: 0.15.8
       execa: 5.1.1
@@ -4991,8 +4991,9 @@ packages:
     resolution: {integrity: sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==}
     engines: {node: '>=8'}
 
-  /cuid/2.1.8:
-    resolution: {integrity: sha512-xiEMER6E7TlTPnDxrM4eRiC6TRgjNX9xzEZ5U/Se2YJKr7Mq4pJn/2XEHjl3STcSh96GmkHPcBXLES8M29wyyg==}
+  /cuid/3.0.0:
+    resolution: {integrity: sha512-WZYYkHdIDnaxdeP8Misq3Lah5vFjJwGuItJuV+tvMafosMzw0nF297T7mrm8IOWiPJkV6gc7sa8pzx27+w25Zg==}
+    deprecated: Cuid and other k-sortable and non-cryptographic ids (Ulid, ObjectId, KSUID, all UUIDs) are all insecure. Use @paralleldrive/cuid2 instead.
     dev: true
 
   /currently-unhandled/0.4.1:
@@ -8198,7 +8199,7 @@ packages:
       pretty-format: 28.1.3
       slash: 3.0.0
       strip-json-comments: 3.1.1
-      ts-node: 10.9.1_4jzkmvep2kagjs4wydgw4576ee
+      ts-node: 10.9.1_zoggm7afueunoginaixuspl56u
     transitivePeerDependencies:
       - supports-color
     dev: true
